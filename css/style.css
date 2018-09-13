@@ -1,0 +1,69 @@
+body {
+  background-color: #00395a; }
+
+#td-0 {
+  background: url("../flags/united-states-of-america.png") no-repeat 2px; }
+
+#td-1 {
+  background: url("../flags/australia.png") no-repeat 2px; }
+
+#td-2 {
+  background: url("../flags/canada.png") no-repeat 2px; }
+
+#td-3 {
+  background: url("../flags/european-union.png") no-repeat 2px; }
+
+#td-4 {
+  background: url("../flags/hungary.png") no-repeat 2px; }
+
+#td-5 {
+  background: url("../flags/switzerland.png") no-repeat 2px; }
+
+#td-6 {
+  background: url("../flags/united-kingdom.png") no-repeat 2px; }
+
+#td-7 {
+  background: url("../flags/japan.png") no-repeat 2px; }
+
+#td-8 {
+  background: url("../flags/czech-republic.png") no-repeat 2px; }
+
+#td-9 {
+  background: url("../flags/denmark.png") no-repeat 2px; }
+
+#td-10 {
+  background: url("../flags/norway.png") no-repeat 2px; }
+
+#td-11 {
+  background: url("../flags/sweden.png") no-repeat 2px; }
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fdcc26; }
+
+[id*="td-"] {
+  padding-left: 35px;
+  text-align: left;
+  white-space: nowrap; }
+
+table {
+  width: 420px;
+  margin: 0 auto; }
+
+thead {
+  background-color: #98332d;
+  color: white; }
+
+th {
+  padding: 5px; }
+
+tbody tr {
+  background-color: #0079c0; }
+
+tbody tr:nth-child(even) {
+  background-color: #8acdea; }
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: #98332d; } }
