@@ -1,9 +1,9 @@
 # Progam pobiera dane z API NBP (http://api.nbp.pl/) i wyświetla w formie tabelki.
 ## General info
  Dane wyswietlane w formie tabelki z dołączonymi flagami poszczególnych państw.
-##Screenshot
-![image](./screenshot-nbp.jpg)
-##Technologies
+## Screenshot
+![image](./screenshot-nbp.png)
+## Technologies
  * JQuery
  * AJAX
  * SASS
