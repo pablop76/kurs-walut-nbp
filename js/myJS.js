@@ -9,8 +9,8 @@ var initCurrency = function (header, container) {
             kursy += "<tr><th id='td-" + i + "'" + ">" + data[0].rates[i].currency + "</th>" + "<th>" + data[0].rates[i].code + "</th>" + "<th>" + data[0].rates[i].bid + "</th>" + "<th>" + data[0].rates[i].ask + "</th>";
         }
         kursy += "</tbody></table>"
-        jQuery(header).append("Kurs NBP " + data[0].effectiveDate);
-        jQuery(container).append(kursy);
+        $(header).append("Kurs NBP " + data[0].effectiveDate);
+        $(container).append(kursy);
     });
 }
 //initCurrency("h1", ".result");
@@ -37,4 +37,3 @@ var initCurrency = function (header, container) {
 //$( document ).ready(function() {
 //  // Handler for .ready() called.
 //}); 
-    
