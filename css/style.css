@@ -1,5 +1,8 @@
 body {
-  background-color: #00395a; }
+  background-color: #000;
+  background-image: url(../mapa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 #td-0 {
   background: url("../flags/united-states-of-america.png") no-repeat 2px; }
@@ -59,11 +62,11 @@ th {
   padding: 5px; }
 
 tbody tr {
-  background-color: #0079c0; }
+  background-color: #007ac071;
+  color: antiquewhite;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
 
 tbody tr:nth-child(even) {
-  background-color: #8acdea; }
-
-@media only screen and (max-width: 450px) {
-  body {
-    background-color: #98332d; } }
+  background-color: #8acdea;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  color: #17195f; }

@@ -2,11 +2,14 @@ $bg-black: #000;
 $bg-sky-blue: #8acdea;
 $bg-paynes-grey: #4e6883;
 $bg-midnight-blue: #17195f;
-$bg-ocean-boat-blue: #0079c0;
+$bg-ocean-boat-blue: #007ac071;
 $bg-darkt-angerine: #fdcc26;
 $bg-red: #98332d;
 body {
-    background-color: darken($bg-ocean-boat-blue, 20);
+    background-color: $bg-black;
+    background-image: url(../mapa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #td-0 {
@@ -85,14 +88,12 @@ th{
 }
 tbody tr {
     background-color: $bg-ocean-boat-blue;
+    color: antiquewhite;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 tbody tr:nth-child(even) {
     background-color: $bg-sky-blue;
-}
-
-@media only screen and (max-width: 450px) {
-    body {
-        background-color: $bg-red;
-    }
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    color: #17195f;
 }

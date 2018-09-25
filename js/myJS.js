@@ -1,5 +1,5 @@
 var initCurrency = function (header, container) {
-    jQuery.get("http://api.nbp.pl/api/exchangerates/tables/C?format=json", function (data) {
+    $.get("http://api.nbp.pl/api/exchangerates/tables/C?format=json", function (data) {
         var kursy = '<table><thead><tr><th>WALUTA</th>' +
             '<th>SYMBOL</th>' +
             '<th>SPRZEDAŻ</th>' +
@@ -37,3 +37,4 @@ var initCurrency = function (header, container) {
 //$( document ).ready(function() {
 //  // Handler for .ready() called.
 //}); 
+    
