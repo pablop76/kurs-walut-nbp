@@ -60,7 +60,7 @@ body {
     background: url("../flags/sweden.png") no-repeat 2px;
 }
 
-h1 {
+h2 {
     text-align: center;
     font-size: 2.5em;
     color: $bg-darkt-angerine;
@@ -87,6 +87,7 @@ th{
     padding: 5px;
 }
 tbody tr {
+    background-color: #04438b; // dla IE
     background-color: $bg-ocean-boat-blue;
     color: antiquewhite;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
