@@ -4,7 +4,7 @@
 ## Screenshot
 ![image](./screenshot-nbp.png)
 ## Technologies
- * JQuery
+ * JAVASCRIPT
  * AJAX
  * SASS
  * Gulp

@@ -10,6 +10,13 @@ body {
     background-image: url(../mapa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 18px;
+}
+#exchangeRate{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #td-0 {
@@ -97,4 +104,8 @@ tbody tr:nth-child(even) {
     background-color: $bg-sky-blue;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
     color: #17195f;
+}
+.alert{
+    color: #fc0000;
+    font-size: 1.2em;
 }
